@@ -102,7 +102,7 @@ watch(
             <a-button html-type="submit" type="primary">创建脚本</a-button>
             <template v-if="activationScriptVisible">
               <a-button @click="downloadScript">下载脚本</a-button>
-              <a-button @click="copyScript">复制脚本</a-button>
+              <!-- <a-button @click="copyScript">复制脚本</a-button> -->
             </template>
           </a-space>
         </a-form-item>

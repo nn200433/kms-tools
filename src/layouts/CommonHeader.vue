@@ -20,6 +20,7 @@ interface Menu {
 }
 
 const menuData: Array<Menu> = [
+  /*
   {
     name: 'home',
     title: '首页',
@@ -45,6 +46,7 @@ const menuData: Array<Menu> = [
     title: '帮助中心',
     icon: DocSearchTwo,
   },
+  */
 ]
 
 const router = useRouter()
